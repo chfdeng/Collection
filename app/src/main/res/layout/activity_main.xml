@@ -10,8 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="org.zero.collection.MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToPullLeftToRefreshActivity"
+        android:text="可以左滑刷新的HorizontalScrollView和Recyclerview" />
 </RelativeLayout>
